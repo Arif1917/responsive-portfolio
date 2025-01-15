@@ -1,0 +1,342 @@
+.font-family{
+    font-family: "Open Sans", serif;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+
+}
+
+/* shared style */
+main section{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+ 
+.bg-color{
+  background-color: rgb(255, 248, 243);  
+}
+
+.about-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+}
+
+
+.about-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 330px;
+text-align: center;
+}
+
+/* header */
+
+.header{
+    background: url('../img/developer.png'),url('../img/header_bg.png'),rgb(255, 248, 243);
+    background-size:75px, 550px;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+/* nav related style  */
+.nav-title{
+    font-family: Open Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 31px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 40px;
+}
+
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav> ul> li{
+    list-style: none;
+}
+nav >ul >li >a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* this is button */
+
+.btn-style{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 700;
+border-radius: 5px;
+padding: 7px 13px;
+background: rgb(253, 110, 10);
+border: none;
+
+}
+
+
+
+
+/* banner related style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+}
+
+.banner-content{
+    
+    max-width: 390px;
+}
+
+.banner-greeting{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 13px;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 55px;
+font-weight: 600;
+text-align: left;
+margin-bottom: 13px;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 300;
+text-align: left;
+margin-bottom: 13px;
+}
+
+.banner-pro-picture{
+    width: 391px;
+}
+
+
+main{
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+/* about related style */
+
+.section{
+ padding: 90px 100px 90px 100px;
+ 
+
+}
+.about{
+    
+    border-radius: 10px;
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    
+}
+.item-description{
+    font-weight: 400;
+    font-size:16px ;
+}
+
+.mb-mb{
+    margin-bottom: 20px;
+}
+.des-des{
+    margin-bottom: 40px;
+}
+
+
+
+
+/* what i do section */
+
+.widthf{
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.what{
+    margin-bottom: 18px;
+}
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+
+./
+.skill{
+    margin-top: 20px;
+    border-radius: 5px;
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.skill-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 650;
+}
+.description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 300;
+text-align: left;
+}
+
+
+
+/* resume  section */
+
+.resume-summary{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 28px;
+font-weight: 660;
+text-align: center;
+}
+
+.resume-container{
+     display: flex;
+     gap: 20px;
+}
+
+.resume-container hr{
+    margin: 20px 15px;
+}
+
+.resume-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 23px;
+font-weight: 650;
+line-height: 41px;
+text-align: left;
+}
+
+.resume-subtitle{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+}
+.resume-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+}
+
+.vvv-v{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* footer related */
+
+footer{
+    display: flex;
+    gap: 30px;
+    padding: 88px 150px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+
+.list-style a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+.list-style a:hover{
+    color: rgb(146, 23, 23);
+    background-color: gray;
+}
+.connect-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 14px;
+}
+.connect-paragraph{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 13px;
+font-weight: 300;
+text-align: left;
+margin-bottom: 14px;
+}
+
+.messege-title{
+    color: rgb(24, 24, 24);
+font-size: 25px;
+font-weight: 600;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    border-radius: 5px;
+
+background: rgb(255, 255, 255);
+color: rgb(117, 117, 117);
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+padding: 16px   10px;
+width: 100%;
+border: none;
+outline: none;
+margin-bottom: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skill-container{
+        flex-direction: column;
+    }
+    
+  
+}
